@@ -3,7 +3,7 @@ import scss from "./layout.module.scss";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div>
       <Header />

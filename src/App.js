@@ -1,12 +1,8 @@
 import React from "react";
-import Loading from "./ui/loading/Loading";
+import MainRoutes from "./routes/MainRoutes";
 
 const App = () => {
-  return (
-    <div>
-      <Loading />
-    </div>
-  );
+  return <MainRoutes />;
 };
 
 export default App;
